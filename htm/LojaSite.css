@@ -1,0 +1,38 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+</style>
+
+ 
+
+/* Carrinho */
+
+#idTabItensFC {width: 90%; margin: 0 auto;}
+#idTabItensFC .EstTabPedidoTit {border: 1px solid #ccc; background: #efefef; padding: 10px;}
+#idTabItensFC .EstTabPedidoNum {border: 1px solid #ccc; background: #efefef; padding: 10px;}
+#idTabItensFC .EstFotoProdCesta {border: 2px solid #eee; border-radius: 5px;}
+#idTabItensFC .EstTabPedido {padding: 10px 0px 0px 10px;}
+#idTabItensFC .EstTabPedidoTotal {border: 1px solid #ccc; background: #efefef; padding: 10px;}
+
+/* Checkout */
+
+#idCartItemsFC {font-family: Arial, sans-serif; font-size: 14px;}
+#idChkCartFC .EstTabPedidoTit {background: #efefef;}
+#idChkCartFC .EstTabPedidoTotal {background: #efefef;}
+#idChkCartFC .EstTabPedidoNum {background: #efefef;}
+#idChkCartFC .EstTabPedidoFrete {background: #efefef}
+
+/* Alinha Imagens ao Centro */
+
+.EstImgFC {margin: 0 auto;}
+
+/* Ajusta Campo de busca */
+
+#custom-space-input {padding: 8px;}
+
+/* Remove títulos das páginas */ 
+
+#idTitTextoFC {display: none;}
+
+/* Ajusta Posição dos textos no carrinho */
+
+#TabCesta p {margin-left: 6.5%}
