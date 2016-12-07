@@ -1,0 +1,372 @@
+        @charset "UTF-8";
+        body {
+         font-family: 'Roboto Condensed', sans-serif; !important}
+
+        a:visited {
+          color: #ccc; }
+
+        .topo {
+          text-align: left;
+          color: #ccc;
+          font-size: 0.7em; }
+
+        .logo {
+          margin: 0 auto;
+          padding: 15px 0;
+          width: 50%; }
+
+        .navbar-inverse {
+          background: transparent none repeat scroll 0 0 !important;
+          border: 0 !important;
+          position: absolute !important;
+          top: 30px;
+          width: 100%; }
+
+        .glyphicon {
+          color: #c00d14; }
+
+        .navbar-collapse.pull-right.collapse.in {
+          margin: 0 auto;
+          text-align: left;
+          width: 100%;
+          background: #000;
+          top: 152px;
+          position: relative; }
+
+        ul.big-menu li {
+          padding: 5px; }
+
+        button.navbar-toggle {
+          background: #ffffff;
+          border: #fff; }
+
+        .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+          background: #ffffff !important;
+          border: #ffffff; }
+
+        .navbar-inverse .navbar-toggle .icon-bar {
+          background-color: #800a0d !important; }
+
+        .nav.navbar-nav a:hover {
+          color: #ffffff; }
+
+        ul.nav.navbar-nav a {
+          color: #9d9d9d;
+          font-weight: normal; }
+
+        ul.big-menu li span:hover {
+          color: #333 !important; }
+
+        .navbar-nav > li > a {
+          text-transform: uppercase; }
+
+        .acesso a {
+          color: #fff; }
+
+        .acesso {
+          margin: 0 auto;
+          padding: 15px;
+          text-align: center;
+          width: 100%;
+          font-size: 1.0em;
+          font-weight: bold;
+          text-transform: uppercase; }
+
+        .acesso .row {
+          padding: 5px 0; }
+
+        .acesso > img {
+          position: relative;
+          top: -2px;
+          width: 18px; }
+
+        .carousel-caption h2 {
+          margin: 0px;
+          font-weight: bold;
+          text-transform: uppercase; }
+
+        footer {
+          text-align: left; }
+
+        footer h3 {
+          text-transform: uppercase;
+          font-size: 1.0em;
+          font-weight: bold;
+          color: #939393; }
+
+        footer a, p {
+          color: #939393;
+          font-size: 0.9em; }
+
+        footer a:hover {
+          color: #fff; }
+
+        .core {
+          background-color: #000;
+          padding: 0;
+          text-align: left;
+          background: url(http://viniciusportfolio.com.br/baller-footer.jpg);
+          background-repeat: no-repeat;
+          height: 277px; }
+
+        h1.titulo {
+          text-transform: uppercase;
+          font-family: 'Roboto';
+          font-weight: bold; }
+
+        .titulo-categoria span {
+          color: #fff;
+          font-weight: bold;
+          text-transform: normal; }
+
+        .banner {
+          background: url(http:/viniciusportfolio.com.br/m-banner-home.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: center;
+          height: 490px;
+          background-color: black; }
+
+        .cupom {
+          height: 20px;
+          width: 100%;
+          padding: 15px 0; }
+
+        /* Display Produtos */
+        .display .text {
+          text-align: left;
+          min-height: 120px; }
+
+        .display h5 {
+          font-size: 1.5em;
+          text-transform: uppercase;
+          font-weight: bold; }
+
+        .servicos {
+          border-right: 1px solid #f0f0f0;
+          margin: 25px 0;
+          padding: 15px;
+          text-transform: uppercase; }
+
+        img.LazyLoadFC.EstImgFC {
+          max-width: 100%; }
+
+        button.white.fantasma {
+          background: transparent;
+          padding: 12px 0;
+          width: 100%;
+          color: #fff;
+          text-transform: uppercase;
+          border: 2px solid #fff; }
+
+        .btn-success a {
+          color: #fff; }
+
+        .btn-success {
+          width: 100%;
+          float: left;
+          margin: 0 4px;
+          border-radius: 0 !important;
+          background: #c00d14 !important;
+          border: 2px solid #c00d14 !important;
+          box-shadow: 2px 1px 9px #888888 !important;
+          text-transform: uppercase; }
+
+        .btn-primary {
+          text-align: left !important;
+          width: 100%;
+          float: right;
+          margin: 0 4px;
+          border-radius: 0 !important;
+          background: transparent !important;
+          border-color: transparent !important;
+          color: #ccc !important;
+          text-transform: uppercase; }
+
+        .btn-success:hover {
+          background: transparent !important;
+          border: 2px solid #c00d14 !important;
+          color: #c00d14 !important;
+          transition: 0.8s;
+          font-weight: bold; }
+
+        .icon-user {
+          padding: 2px; }
+
+        .horizontal li {
+          float: left;
+          list-style: none;
+          padding: 0px; }
+
+        ul {
+          padding: 0; }
+
+        li {
+          list-style: none; }
+
+        .navbar-collapse.pull-right.collapse.in {
+          margin: 0 auto;
+          text-align: left;
+          width: 100%;
+          z-index: 999; }
+
+        .topo li a {
+          color: #ccc; }
+
+        .topo a:hover {
+          color: #fff; }
+
+        .topo span {
+          color: #ccc; }
+
+        .topo a:hover {
+          color: #fff;
+          text-decoration: none; }
+
+        .topo a:visited {
+          color: #ccc; }
+
+        .topo .InputTextBusca {
+          min-height: 50px; }
+
+        .topo button.btn.btn-default {
+          height: 50px; }
+
+        .gray {
+          background: #333;
+          color: #fff; }
+
+        .branco {
+          background: #fff;
+          color: #333; }
+
+        .red {
+          background: #800a0d; }
+
+        .black {
+          background: #050505;
+          color: #cccccc; }
+
+        .id {
+          color: #800a0d; }
+
+        .categoria {
+          padding: 0px; }
+
+        .col-md-4.col-sm-4.hidden-xs.categoria:hover .alfa {
+          opacity: 0.8;
+          transition: 2s; }
+
+        .alfa {
+          background: #000 none repeat scroll 0 0;
+          color: #fff;
+          height: 76%;
+          left: 0;
+          margin: 8% 10%;
+          opacity: 0.4;
+          padding: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 80%; }
+
+        .titulo-categoria {
+          color: #fff;
+          font-weight: bold;
+          padding: 0 100px;
+          position: absolute;
+          text-transform: uppercase;
+          top: 30%; }
+
+        .col-md-4.col-sm-4.hidden-xs.categoria {
+          padding: 0; }
+
+        .thumbnail {
+          background-color: #fff;
+          border: medium none; }
+
+        .topicos {
+          margin: 50px auto; }
+
+        .topicos h2 {
+          font-size: 1.7em;
+          text-transform: uppercase; }
+
+        .topicos h2:hover {
+          color: #800a0d; }
+
+        body {
+          background-image: url(pattern.png);
+          text-align: center; }
+
+        .produtos {
+          margin: 50px auto;
+          padding: 0; }
+
+        .produtos p {
+          text-align: center; }
+
+        .blog {
+          padding: 80px; }
+
+        .dropdown-menu.sheare {
+          margin-left: -180px;
+          min-width: 215px !important; }
+
+        .news-letter {
+          background: #c00d14;
+          padding: 50px; }
+
+        .news-letter h3 {
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 17px; }
+
+        .creditos p {
+          text-align: center;
+          margin: 0px;
+          padding: 0; }
+
+        legend {
+          border: 0px !important; }
+
+        footer .horizontal li {
+          padding: 0 7px; }
+
+        input.form-control.area {
+          min-height: 50px;
+          border-radius: 0px;
+          box-shadow: 2px 5px 14px #6f0206; }
+
+        button.btn.btn-secondary {
+          padding: 14px 30px;
+          border-radius: 0;
+          background: #800a0d;
+          border-color: #800a0d;
+          color: #fff;
+          text-transform: uppercase;
+          box-shadow: 2px 5px 14px #6f0206; }
+
+        footer {
+          float: left;
+          width: 100%; }
+
+        .botao span:after {
+          content: '»';
+          position: absolute;
+          opacity: 0;
+          left: 2px;
+          transition: 0.5s; }
+
+        .botao:hover span:after {
+          opacity: 1;
+          left: 0; }
+
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s; }
+
+        /*# sourceMappingURL=estilo.css.map */
