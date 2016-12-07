@@ -1,0 +1,254 @@
+<header>
+<!-- CSS -->
+<link href="<BaseLoja>htm/bootstrap.css" type="text/css" rel="stylesheet" />
+<link href="<BaseLoja>htm/estilo.css" type="text/css" rel="stylesheet" />
+<link href="<BaseLoja>htm/mobile.css" type="text/css" rel="stylesheet" />
+<link href="<BaseLoja>htm/animate.css" type="text/css" rel="stylesheet" />
+ 
+
+<!-- JS -->
+ 
+
+<div class="wrapper">  
+		      <div class="topo red">
+		        <div class="container"> 
+		            <div class="row">
+		                <div class="col-xs-12 hidden-sm hidden-lg">
+		                    <div class="logo">
+		                        <a href="/Home.asp?IDLoja=<IDLoja>"><img src="<BaseLoja>images/m-logo-game.png" alt="Logo"></a>
+		                    </div>
+		                </div> 
+		            </div>
+
+		            <div class="row">
+		                <div class="col-xs-12"> 
+		                    <form class="form-inline navbar-right visible-xs" name=FormBuscaSimples method=GET action="ListaProdutos.asp" onSubmit="return VerTextoBS(this);" role="search">
+		                                <input type=hidden name=IDLoja value="<IDLojaNum>">
+		                                <input type=hidden name=Y value="<Y>">
+		                                <input type=hidden name=BuscaNomeRef value=True>
+		                                <input type=hidden name=Digitada value=True>
+		                                    <div class="input-group" id="custom-space-input">
+		                                        <input type="text" class="form-control InputTextBusca" placeholder="Buscar por...">
+		                                        <span class="input-group-btn">
+		                                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+		                                         </span>
+		                                    </div>
+		                             </form>
+
+
+
+		                </div>
+		            </div>
+		            <!-- Mobile LOGIN -->
+		            <div class="col-xs-12 hidden-sm hidden-lg">
+		                <div class="acesso">
+		                    <img src="<BaseLoja>images/user.png" class="icon-user"><span class="visitante"> Olá Visitante</span> | 
+                          		<a href="/cadastro.asp?idloja=<IDLoja>">Faça seu Login</a> 
+                                  <div class="row"> 
+                                      <span class="visitante">  <a href="/Track.asp?IDLoja=<IDLoja>">Meu Pedido</a></span> |&nbsp; Compartilhe
+
+                                  </div>
+		                </div>
+
+		            </div>
+
+
+		            <!-- Topo Desktop -->
+
+		            <div class="row hidden-xs">
+		                <div class="col-sm-4"> 
+		                    <ul>
+		                        <li><img src="<BaseLoja>images/user.png" class="icon-user"><span class="visitante"> Bem Vindo</span> | &nbsp;<a href="/cadastro.asp?idloja=<IDLoja>">Login</a></li>
+		                     
+		                    </ul>
+		                 </div>
+		                <div class="col-sm-8">
+		                     
+		                     <ul class="horizontal MenuInfosShare">
+		                    
+		                         <li><a href="/account.asp?idloja=<IDLoja>"><img src="<BaseLoja>images/home.png" alt="home"></a></li>
+		                         <li><a href="/account.asp?idloja=<IDLoja>"><span>| &nbsp;Minha conta</span></a></li>
+		                         <li><a href="/addproduto.asp?idloja=<IDLoja>"><span class="hidden-xs">| Pedidos</span></a></li>
+		                          
+		                         <li class="hidden-xs">| Compartilhe com a galera</li>
+                               	 <li class="hidden-xs"><ShareFacebook></li>
+                                 <li class="hidden-xs"><ShareTwitter></li>
+                               	 <li class="hidden-xs"><SharePinterest></li>
+
+                               
+
+
+		                         
+		                 
+		                     </ul>
+
+		                </div>
+		            </div>
+		            
+		        </div>
+		    		</div>
+
+
+	<!-- Inicio Carousel -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicadores -->
+	 	<div class="down hidden-xs"><span class="glyphicon glyphicon-chevron-down"></span></div>
+		<!-- Slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="<BaseLoja>images/slide-1.jpg">
+				<div class="carousel-caption animated fadeInDown">
+					<h2>Auto desempenho</h2> 
+                  	<p>Aqui você tem 30% off nos produtos em destaque.</p>
+				</div>
+			</div>
+			 
+			<div class="item ">
+				<img src="<BaseLoja>images/slide-1.jpg">
+				<div class="carousel-caption animated fadeInDown">
+					<h2>Busque a grandeza</h2> 
+                  	<p>Com nossos produtos você vai mais longe</p>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Controles -->
+		<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-xs" href="/Home.asp?IDLoja=<IDLoja>"><img src="<BaseLoja>images/logo-game.png" alt="Logo-desktop"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="botao" href="/Home.asp?IDLoja=<IDLoja>"><span>Home</span></a>
+                    </li>
+                     <li class="dropdown">
+                        <a class="active botao" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                       <span>Categorias</span></a>
+                        <ul class="dropdown-menu">                   
+                         	<li class="col-sm-6">
+                          		<ul class="big-menu"> 
+                                    <li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258220,redes-champion"><span>Tênis do Astro</span></a></li>
+                                  	<li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258222,redes-champion"><span>Bolas do Jogo</span></a></li>
+                                    <li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258231,redes-champion"><span>Artigos de Luxo</span></a></li>
+                                  	<li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258220,redes-champion"><span>Autografados</span></a></li>
+
+                              	</ul>
+                          	</li>
+                          	<li class="col-sm-6">
+                          		<ul class="big-menu">
+                              	    <li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258220,redes-champion"><span>Tênis do Astro</span></a></li>
+                                  	<li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258222,redes-champion"><span>Bolas do Jogo</span></a></li>
+                                    <li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258231,redes-champion"><span>Artigos de Luxo</span></a></li>
+                                  	<li><a class="botao" href="/prod,idloja,<IDLojaNum>,idcategoria,258220,redes-champion"><span>Autografados</span></a></li>
+
+                              	</ul>
+                          	</li>
+                          
+                          
+                         </ul>
+                       
+                      	
+                    </li>
+                    <li class="dropdown">
+                        <a class="active botao" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                       <span>Produtos</span></a>
+                        <ul class="dropdown-menu">                   
+                         	<li class="col-sm-6">
+                          		<ul class="big-menu"> 
+                                    <li><a class="botao" href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=5515115"><span>Tênis Nike</span></a></li>
+                                  	<li><a class="botao" href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=5515114"><span>Camiseta Cavaliers</span></a></li>
+                                    <li><a class="botao" href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=5515113"><span>Camiseta Lakers NBA</span></a></li>
+                                   
+                              	</ul>
+                          	</li>
+                          	<li class="col-sm-6">
+                          		<ul class="big-menu">
+                              		
+                                    <li><a class="botao" href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=5515115"><span>Tênis Nike</span></a></li>
+                                  	<li><a class="botao" href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=5515114"><span>Camiseta Cavaliers</span></a></li>
+                                    <li><a class="botao" href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=5515113"><span>Camiseta Lakers NBA</span></a></li>
+
+                              	</ul>
+                          	</li>
+                          
+                          
+                         </ul>
+                       
+                      	
+                    </li>
+                    <li>
+                        <a  class="botao" href="#"><span>Páginas</span></a>
+                    </li>
+                    <li>
+                        <a  class="botao" href="/FaleConosco.asp?IDLoja=<IDLoja>"><span>Contato</span></a>
+                    </li>
+                    <li class="hidden-lg">
+                        <a href="/addproduto.asp?idloja=<IDLoja>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Meu Carrinho</a>
+                    </li>
+                 	<li class="hidden-xs">
+                        <a href="/addproduto.asp?idloja=<IDLoja>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                    </li>
+
+                            <li class="dropdown hidden-xs">
+                                  <a class="active" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+
+                                   <ul class="dropdown-menu sheare">                   
+                                         <li> 
+                                              <form class="form-inline navbar-right visible-sm visible-lg" name=FormBuscaSimples method=GET action="ListaProdutos.asp" onSubmit="return 													VerTextoBS(this);" role="search">
+                                                    <input type=hidden name=IDLoja value="<IDLojaNum>">
+                                                    <input type=hidden name=Y value="<Y>">
+                                                    <input type=hidden name=BuscaNomeRef value=True>
+                                                    <input type=hidden name=Digitada value=True>
+
+                                                    <div class="input-group" id="custom-space-input">
+                                                        <input type="text" class="form-control InputTextBusca" placeholder="Oque procura?...">
+                                                        <span class="input-group-btn">
+                                                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                                         </span>
+                                                    </div>
+                                                </form>
+                                         </li>
+                                 </ul>
+                            </li>
+
+
+                </ul>
+
+
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- TOPICOS -->
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="<BaseLoja>htm/jquery.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/bootstrap.js"></script>
+</header>
