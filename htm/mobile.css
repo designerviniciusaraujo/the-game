@@ -1,0 +1,243 @@
+      @media (min-width: 300px) and (max-width: 380px) {
+        footer .col-xs-6 {
+          width: 50%;
+          padding: 0 15px;
+          margin: 0;
+          font-size: 11px; } }
+      @media (min-width: 500px) {
+        .carousel-caption {
+          top: 40px;
+          text-align: left !important;
+          left: 18% !important;
+          right: 18% !important; }
+
+        .display {
+          
+          margin: 53px auto; }
+
+        .cupom {
+          height: 20px;
+          width: 50%;
+          padding: 15px 32px; }
+
+        .down {
+          position: absolute;
+          z-index: 999;
+          color: #fff;
+          text-align: center;
+          width: 100%;
+          bottom: 50px;
+          font-size: 24px;
+          opacity: 0.5; } }
+      @media (min-width: 768px) and (max-width: 1200px) {
+        .core {
+          background-size: 100%;
+          position: relative;
+          bottom: -30px;
+          top: 30px; } }
+      @media (min-width: 768px) {
+        .dropdown-menu {
+          min-width: 370px !important; }
+
+        .servicos img {
+          width: 25%; }
+
+        ul.big-menu {
+          padding: 2px 0;
+          border-top: 1px solid #ccc;
+          margin: 25px auto; text-align: left;}
+
+        ul.big-menu li {
+          padding: 10px 0; }
+
+        ul.big-menu li a {
+          color: #ccc;
+          text-transform: uppercase; }
+
+        ul.big-menu li a:hover {
+          color: #333; }
+
+        .navbar-inverse {
+          top: 5px; }
+
+        .navbar-collapse {
+          position: relative;
+          bottom: 5px; }
+
+        a.navbar-brand.hidden-xs img {
+          width: 50%;
+          margin: 0 auto; }
+
+        .navbar-nav > li > a {
+          font-size: 1.0em;
+          text-transform: uppercase;
+          padding: 10px 13.4px !important; }
+
+        button.btn.btn-secondary {
+          padding: 14px 40px;
+          border-radius: 0;
+          background: #800a0d;
+          border-color: #800a0d;
+          color: #fff;
+          text-transform: uppercase; }
+
+        .carousel-caption {
+          right: 50% !important;
+          left: 17% !important;
+          padding-bottom: 30px;
+          top: 80px;
+          text-align: left; }
+
+        .carousel-caption h2 {
+          font-weight: bold;
+          font-size: 30px;
+          text-align: left; }
+
+        .carousel-caption p {
+          text-align: left;
+          margin: 0px;
+          text-transform: uppercase; }
+
+       
+
+        a:focus, a:hover {
+          text-decoration: none !important; }
+
+        /* TOPO CSS */
+        .col-xs-12.hidden-sm.hidden-lg {
+          display: none; }
+
+        .topo {
+          color: #ccc;
+          padding: 0;
+          text-align: left; }
+
+        .MenuInfosShare {
+          float: right; }
+
+        .topo .horizontal {
+          left: -27px;
+          position: relative;
+          right: 27px; }
+
+        .topo img {
+          width: 14px;
+          position: relative;
+          bottom: 1px; }
+
+        .topo li {
+          position: relative;
+          top: 7px;
+          bottom: 7px;
+          font-weight: bold; }
+
+        .topo a {
+          color: #ccc; }
+
+        /* TOPO CSS */
+        /* TOPICOS CSS */
+        .titulo-categoria {
+          padding: 0px;
+          margin: 0 auto;
+          text-align: center;
+          width: 100%; }
+
+        .blog {
+          padding: 0px; }
+
+        .blog {
+          margin: 0 auto;
+          padding: 50px 0; }
+
+        /*TOPICOS CSS*/
+        /* GENERICO LOJA */
+        .horizontal li {
+          padding: 0px 3px; }
+
+        /* PRODUTOS CSS */
+        .banner {
+          background: url(http:/viniciusportfolio.com.br/banner-home.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: center;
+          height: 490px;
+          background-color: black; }
+
+        button.white.fantasma {
+          background: transparent;
+          padding: 12px 0;
+          width: 100%;
+          color: #fff;
+          text-transform: uppercase;
+          border: 2px solid #fff; }
+
+        .cupom {
+          height: 20px;
+          width: 50%;
+          padding: 120px 90px; }
+
+        .creditos {
+          position: relative;
+          bottom: 5px; }
+
+        .form {
+          width: 47%;
+          margin: 0 auto; }
+
+        footer .col-sm-3, .col-md-2 {
+          padding: 40px 0;
+          font-size: 13px; }
+
+        .titulo-categoria span {
+          top: -18px;
+          bottom: 40px;
+          font-size: 15px;
+          position: relative;
+          margin: 10px auto; } }
+      @media (min-width: 980px) and (max-width: 1200px) {
+        .display .text {
+          text-align: left;
+          min-height: 150px; } }
+      @media (min-width: 980px) {
+        .titulo-categoria {
+          text-align: center;
+          width: 100%;
+          margin: 30px auto;
+          font-size: 40px; }
+
+        .corp p {
+          text-align: left !important; }
+
+        .dev p {
+          text-align: right !important; }
+
+        .navbar-collapse {
+          top: 40px;
+          position: relative;
+          bottom: 40px; }
+
+        .navbar-inverse {
+          top: 25px; }
+
+        a.navbar-brand.hidden-xs img {
+          width: 70%; }
+
+        .carousel-caption h2 {
+          font-size: 45px; }
+
+        .carousel-caption {
+          top: 165px; } }
+      @media (min-width: 1200px) {
+        .navbar-nav > li > a {
+          font-size: 1.2em; }
+
+        .titulo-categoria span {
+          color: #fff;
+          font-weight: bold;
+          text-transform: normal;
+          font-size: 15px;
+          position: relative;
+          top: -25px;
+          bottom: 40px; } }
+
+      /*# sourceMappingURL=mobile.css.map */
